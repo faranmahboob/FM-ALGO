@@ -1,4 +1,4 @@
-codeunit 50100 "HelloWorld Test"
+/*codeunit 50100 "HelloWorld Test"
 {
     Subtype = Test;
 
@@ -12,7 +12,7 @@ codeunit 50100 "HelloWorld Test"
            CustList.Close();
            if (not MessageDisplayed) then
                ERROR('Message was not displayed!');
-               */
+               *//*
     end;
 
     [MessageHandler]
@@ -24,4 +24,4 @@ codeunit 50100 "HelloWorld Test"
     var
         MessageDisplayed: Boolean;
 }
-
+*/

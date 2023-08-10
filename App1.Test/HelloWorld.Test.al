@@ -4,7 +4,7 @@ codeunit 50100 "HelloWorld Test"
 
     [Test]
     [HandlerFunctions('HelloWorldMessageHandler')]
-    procedure TestHelloWorldMessage()
+    procedure "TestHelloWorldMessage"()
     var
         CustList: TestPage "Customer List";
     begin

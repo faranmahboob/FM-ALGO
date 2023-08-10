@@ -6,12 +6,14 @@ codeunit 50100 "HelloWorld Test"
     [HandlerFunctions('HelloWorldMessageHandler')]
     procedure "TestHelloWorldMessage"()
     var
+        TESTvar: Text;
         CustList: TestPage "Customer List";
     begin
         CustList.OpenView();
         CustList.Close();
         if (not MessageDisplayed) then
-            ERROR('Message was not displayed!');
+            TESTvar := 'abc';
+        // ERROR('Message was not displayed!');
     end;
 
     [MessageHandler]

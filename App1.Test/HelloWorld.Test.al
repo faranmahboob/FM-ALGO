@@ -3,7 +3,7 @@ codeunit 50100 "HelloWorld Test"
     Subtype = Test;
 
     [Test]
-    [HandlerFunctions('HelloWorldMessageHandler')]
+    //  [HandlerFunctions('HelloWorldMessageHandler')]
     procedure "TestHelloWorldMessage"()
     var
         TESTvar: Text;

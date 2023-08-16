@@ -1,6 +1,6 @@
 {
   "country": "us",
-  "appFolders": ["D:/Testrepos/FM-ALGO"],
-  "testFolders": [],
+  "appFolders": [],
+  "testFolders": ["./apps"],
   "bcptTestFolders": []
 }
